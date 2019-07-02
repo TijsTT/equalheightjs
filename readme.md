@@ -18,13 +18,13 @@ First, import the package into your project:
 import 'equalizeheight';
 ```
 
-To equalize the height of elements on the same row, you simply add a data-equal-height attribute to those elements with a dedicated group name:
+To equalize the height of elements on the same row, you simply add a data-equalize-height attribute to those elements with a dedicated group name:
 
 ```html
 <div>
-    <span data-equal-height="group-name">Hello world!</span>
-    <span data-equal-height="group-name">Hello world!</span>
-    <span data-equal-height="group-name">Hello world!</span>
+    <span data-equalize-height="group-name">Hello world!</span>
+    <span data-equalize-height="group-name">Hello world!</span>
+    <span data-equalize-height="group-name">Hello world!</span>
 </div>
 ```
 
