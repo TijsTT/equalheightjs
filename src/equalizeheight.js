@@ -1,7 +1,7 @@
-class EqualHeight {
+class EqualizeHeight {
 
     constructor() {
-        this.elements = document.querySelectorAll('[data-equal-height]');
+        this.elements = document.querySelectorAll('[data-equalize-height]');
 
         // If there are no equal height element, return
         if(!this.elements || this.elements.length === 0) return;
@@ -136,7 +136,7 @@ class EqualHeight {
 
 }
 
-new EqualHeight();
+new EqualizeHeight();
 
 
 

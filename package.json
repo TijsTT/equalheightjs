@@ -1,22 +1,22 @@
 {
   "name": "equalizeheight",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Equalize height of elements on same row",
-  "main": "lib/equalheight.js",
+  "main": "lib/equalizeheight.js",
   "scripts": {
     "build": "babel --presets es2015 -d lib/ src",
     "front": "npx tailwind build tailwind.css -o ./style.css -c tailwind.js --no-autoprefixer"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TijsTT/equalheightjs.git"
+    "url": "git+https://github.com/TijsTT/equalizeheight.git"
   },
   "author": "Tijs Verellen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/TijsTT/equalheightjs/issues"
+    "url": "https://github.com/TijsTT/equalizeheight/issues"
   },
-  "homepage": "https://github.com/TijsTT/equalheightjs#readme",
+  "homepage": "https://github.com/TijsTT/equalizeheight#readme",
   "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.26.0",
