@@ -1,6 +1,6 @@
 {
   "name": "equalizeheight",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Equalize height of elements on same row",
   "main": "lib/equalizeheight.js",
   "scripts": {

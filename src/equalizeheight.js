@@ -15,6 +15,10 @@ class EqualizeHeight {
             this.calculateEqualHeight();
         });
 
+        window.addEventListener('orientationchange', () => {
+            this.recalculateRows();
+            this.calculateEqualHeight();
+        });
     }
 
     rowsToArrays(elements) {
